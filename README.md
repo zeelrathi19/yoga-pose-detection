@@ -102,55 +102,55 @@ pose_video = mp_pose.Pose(
     model_complexity=1
 )
 
-🤝 Contributing
+Contributing
 Contributions are welcome! Here are some ways you can contribute:
 
-Add more yoga poses - Extend the classification to include additional asanas
-Improve accuracy - Enhance the angle calculation algorithms
-Add voice feedback - Implement audio guidance
-Mobile support - Create a mobile app version
-Better UI - Improve the user interface
+- Add more yoga poses - Extend the classification to include additional asanas
+- Improve accuracy - Enhance the angle calculation algorithms
+- Add voice feedback - Implement audio guidance
+- Mobile support - Create a mobile app version
+- Better UI - Improve the user interface
 
 Steps to Contribute:
 
-Fork the repository
-Create a feature branch (git checkout -b feature/new-pose)
-Commit your changes (git commit -am 'Add new yoga pose')
-Push to the branch (git push origin feature/new-pose)
-Create a Pull Request
+- Fork the repository
+- Create a feature branch (git checkout -b feature/new-pose)
+- Commit your changes (git commit -am 'Add new yoga pose')
+- Push to the branch (git push origin feature/new-pose)
+- Create a Pull Request
 
 🔮 Future Enhancements
 
- Voice feedback for pose corrections
- More yoga poses (target: 20+ asanas)
- Pose scoring system with detailed feedback
- Mobile application for iOS/Android
- Multi-person detection support
- Progress tracking and analytics
- Custom pose creation feature
+ - Voice feedback for pose corrections
+ - More yoga poses (target: 20+ asanas)
+ - Pose scoring system with detailed feedback
+ - Mobile application for iOS/Android
+ - Multi-person detection support
+ - Progress tracking and analytics
+ - Custom pose creation feature
 
-📚 Research Background
+Research Background
 This project is based on research in human pose estimation and computer vision. Key references include:
 
-MediaPipe Pose estimation framework
-BlazePose: On-device Real-time Body Pose tracking
-Various yoga pose classification methodologies
+- MediaPipe Pose estimation framework
+- BlazePose: On-device Real-time Body Pose tracking
+- Various yoga pose classification methodologies
 
-⚠️ Limitations
+Limitations
 
-Single person detection only
-Optimal distance: Works best at 2-4 meters from camera
-Front view: Currently supports front-facing poses only
-Lighting conditions: Requires adequate lighting for accurate detection
+- Single person detection only
+- Optimal distance: Works best at 2-4 meters from camera
+- Front view: Currently supports front-facing poses only
+- Lighting conditions: Requires adequate lighting for accurate detection
 
-👨‍💻 Author
+Author
 Zeel Rathi
 
-M.Sc. (Integrated) AIML Student
-Gujarat University
-Department of AIML & Data Science
+- M.Sc. (Integrated) AIML Student
+- Gujarat University
+- Department of AIML & Data Science
 
-🙏 Acknowledgments
+Acknowledgments
 
 MediaPipe team for the excellent pose detection framework
 OpenCV community for computer vision tools
